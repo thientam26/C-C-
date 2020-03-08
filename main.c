@@ -1,3 +1,6 @@
-main function
+#include <stdio.h>
 
-print 'Hello world
+void main()
+{
+	printf("konichiwa\r\n");
+}
