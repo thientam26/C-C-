@@ -1,1 +1,3 @@
-'Hello world
+main function
+
+print 'Hello world
