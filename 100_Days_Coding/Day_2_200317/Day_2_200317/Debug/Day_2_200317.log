@@ -1,0 +1,6 @@
+﻿  Day_2_200317.c
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100DaysCoding\Day_2_200317\Day_2_200317\Day_2_200317.c(16,10): warning C4129: '%': unrecognized character escape sequence
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100DaysCoding\Day_2_200317\Day_2_200317\Day_2_200317.c(16,10): warning C4476: 'printf' : unknown type field character '\r' in format specifier
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100DaysCoding\Day_2_200317\Day_2_200317\Day_2_200317.c(16,29): warning C4474: 'printf' : too many arguments passed for format string
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100DaysCoding\Day_2_200317\Day_2_200317\Day_2_200317.c(16,29): message : placeholders and their parameters expect 1 variadic arguments, but 2 were provided
+  Day_2_200317.vcxproj -> D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100DaysCoding\Day_2_200317\Debug\Day_2_200317.exe
