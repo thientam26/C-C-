@@ -1,0 +1,5 @@
+﻿  chuongtrinhchinh.c
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_4_200318\Day_4_200318\chuongtrinhchinh.c(24,9): warning C4477: 'printf' : format string '%2x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int8_t *'
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_4_200318\Day_4_200318\chuongtrinhchinh.c(25,9): warning C4477: 'printf' : format string '%2x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int8_t *'
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_4_200318\Day_4_200318\chuongtrinhchinh.c(22,1): warning C4133: 'initializing': incompatible types - from 'int16_t *' to 'int8_t *'
+  Day_4_200318.vcxproj -> D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_4_200318\Debug\Day_4_200318.exe
