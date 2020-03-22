@@ -3,6 +3,7 @@
 #include<stdio.h>
 #include<memory.h>
 
+void tachbit()
 
 void main()
 {
@@ -18,12 +19,19 @@ void main()
 	//printf("gia tri cua px: %d\r\n", *px);
 
 	// Tach bit cao va thap cua dia chi
+	tachbit()
+}
+
+
+void tachbit()
+{
 	int16_t x = 0x1234;
 
 	int8_t* x_low = &x;
 	int8_t* x_high = x_low + 1;
 	printf("dia chi bit thap : %2x\r\n", x_low); // in ra gia tri he 16
 	printf("dia chi bit cao: %2x\r\n", x_high);
-
+	printf("gia tri bit thap : %2x\r\n", *x_low); // in ra gia tri he 16
+	printf("gia tri bit cao: %2x\r\n", *x_high);
 
 }
