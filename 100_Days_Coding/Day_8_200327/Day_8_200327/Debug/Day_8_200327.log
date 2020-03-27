@@ -1,0 +1,11 @@
+﻿  Line counting.c
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100_Days_Coding\Day_8_200327\Day_8_200327\Line counting.c(16,10): warning C4473: 'scanf_s' : not enough arguments passed for format string
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100_Days_Coding\Day_8_200327\Day_8_200327\Line counting.c(16,10): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100_Days_Coding\Day_8_200327\Day_8_200327\Line counting.c(16,10): message : the missing variadic argument 2 is required by format string '%s'
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100_Days_Coding\Day_8_200327\Day_8_200327\Line counting.c(16,10): message : this argument is used as a buffer size
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100_Days_Coding\Day_8_200327\Day_8_200327\Line counting.c(19,23): warning C4047: 'function': 'FILE **' differs in levels of indirection from 'char [100]'
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100_Days_Coding\Day_8_200327\Day_8_200327\Line counting.c(19,23): warning C4024: 'fopen_s': different types for formal and actual parameter 1
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100_Days_Coding\Day_8_200327\Day_8_200327\Line counting.c(19,28): warning C4047: 'function': 'const char *' differs in levels of indirection from 'int'
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100_Days_Coding\Day_8_200327\Day_8_200327\Line counting.c(19,28): warning C4024: 'fopen_s': different types for formal and actual parameter 2
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100_Days_Coding\Day_8_200327\Day_8_200327\Line counting.c(19,28): error C2198: 'fopen_s': too few arguments for call
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100_Days_Coding\Day_8_200327\Day_8_200327\Line counting.c(19,29): warning C4047: '=': 'FILE *' differs in levels of indirection from 'errno_t'
