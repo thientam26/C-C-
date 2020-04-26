@@ -29,6 +29,7 @@ void tachbit()
 
 	int8_t* x_low = &x;
 	int8_t* x_high = x_low + 1;
+
 	printf("dia chi bit thap : %2x\r\n", x_low); // in ra gia tri he 16
 	printf("dia chi bit cao: %2x\r\n", x_high);
 	printf("gia tri bit thap : %2x\r\n", *x_low); // in ra gia tri he 16
