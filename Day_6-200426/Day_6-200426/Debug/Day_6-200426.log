@@ -1,0 +1,4 @@
+﻿  For_lesson.c
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_6-200426\Day_6-200426\For_lesson.c(34,9): warning C4477: 'printf' : format string '%02x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_6-200426\Day_6-200426\For_lesson.c(40,9): warning C4477: 'printf' : format string '%2p' requires an argument of type 'void *', but variadic argument 1 has type 'int'
+  Day_6-200426.vcxproj -> D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_6-200426\Debug\Day_6-200426.exe
