@@ -1,0 +1,8 @@
+﻿  Strcut_practice.c
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_9_Struct\Day_9_Struct\Strcut_practice.c(43,21): warning C4047: 'function': 'char *' differs in levels of indirection from 'int'
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_9_Struct\Day_9_Struct\Strcut_practice.c(43,21): warning C4024: 'fgets': different types for formal and actual parameter 1
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_9_Struct\Day_9_Struct\Strcut_practice.c(44,26): warning C4133: 'function': incompatible types - from 'int *' to 'char *'
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_9_Struct\Day_9_Struct\Strcut_practice.c(45,25): warning C4133: 'function': incompatible types - from 'int *' to 'char *'
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_9_Struct\Day_9_Struct\Strcut_practice.c(46,27): warning C4133: 'function': incompatible types - from 'long *' to 'char *'
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_9_Struct\Day_9_Struct\Strcut_practice.c(52,9): warning C4129: ' ': unrecognized character escape sequence
+  Day_9_Struct.vcxproj -> D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_9_Struct\Debug\Day_9_Struct.exe
