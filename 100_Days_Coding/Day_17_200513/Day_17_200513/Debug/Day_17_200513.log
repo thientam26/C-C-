@@ -1,0 +1,5 @@
+﻿  Search_func.c
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100_Days_Coding\Day_17_200513\Day_17_200513\Search_func.c(16,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100_Days_Coding\Day_17_200513\Day_17_200513\Search_func.c(17,22): warning C4047: '==': 'int' differs in levels of indirection from 'char *'
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100_Days_Coding\Day_17_200513\Day_17_200513\Search_func.c(19,25): warning C4133: '=': incompatible types - from 'char *' to 'int *'
+  Day_17_200513.vcxproj -> D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100_Days_Coding\Day_17_200513\Debug\Day_17_200513.exe
