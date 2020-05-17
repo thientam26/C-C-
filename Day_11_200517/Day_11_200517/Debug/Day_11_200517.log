@@ -1,0 +1,28 @@
+﻿  Rectangen.c
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Socket.h(3,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Socket.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Socket.c(10,11): warning C4098: 'Socket_Init': 'void' function returning a value
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Socket.c(32,11): warning C4098: 'Socket_Init': 'void' function returning a value
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Socket.c(44,11): warning C4098: 'Socket_Server_Init': 'void' function returning a value
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Socket.c(73,8): warning C4013: 'close' undefined; assuming extern returning int
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Socket.c(123,31): warning C4133: 'function': incompatible types - from 'FILE *' to 'const char *'
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Socket.c(125,23): warning C4018: '<': signed/unsigned mismatch
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Socket.c(127,14): warning C4013: 'Socket_recv' undefined; assuming extern returning int
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Socket.c(122,1): error C2120: 'void' illegal with all types
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Rectangen.c(48,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'int'
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Rectangen.c(50,22): warning C4047: '==': 'int' differs in levels of indirection from 'char *'
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Rectangen.c(52,25): warning C4133: '=': incompatible types - from 'char *' to 'int *'
+  Socket.c
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Socket.h(3,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Socket.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Socket.c(10,11): warning C4098: 'Socket_Init': 'void' function returning a value
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Socket.c(32,11): warning C4098: 'Socket_Init': 'void' function returning a value
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Socket.c(44,11): warning C4098: 'Socket_Server_Init': 'void' function returning a value
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Socket.c(73,8): warning C4013: 'close' undefined; assuming extern returning int
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Socket.c(123,31): warning C4133: 'function': incompatible types - from 'FILE *' to 'const char *'
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Socket.c(125,23): warning C4018: '<': signed/unsigned mismatch
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Socket.c(127,14): warning C4013: 'Socket_recv' undefined; assuming extern returning int
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Socket.c(122,1): error C2120: 'void' illegal with all types
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_11_200517\Day_11_200517\Socket.c(123,1): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : see declaration of 'fopen'
+  Generating Code...

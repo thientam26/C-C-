@@ -1,0 +1,14 @@
+Day 11
+Cấp phát bộ nhớ:
+1. calloc
+ void * calloc(unsigned n, unsigned size)
+
+2. malloc
+void *malloc(unsigned n)
+
+3. free giải phóng vùng nhớ đã cấp phát
+void free(void *ptr)
+
+memcpy: copy data truc tiếp vào vùng nhớ
+công
+con trỏ kiểu void chỉ trả về địa chỉ vùng nhớ, không cộng đc địa chỉ
