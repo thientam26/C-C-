@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_13_200524\Day_13_200524\main.cpp(66,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Day_13_200524.vcxproj -> D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_13_200524\Debug\Day_13_200524.exe
