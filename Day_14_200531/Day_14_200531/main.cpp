@@ -21,5 +21,7 @@ int main()
 	printf("%s\r\n", buffer);
 	//char* data = (char*)"xin_chao";
 	//imic.put("test.txt", data, strlen(data));
+	char* data =(char*) "xin chao";
+	imic.put((char*)"test.txt", data, strlen(data));
 	return 0;
 }

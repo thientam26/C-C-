@@ -34,7 +34,7 @@ void AWS_S3::get(char* nameFile, char* buff, int buffLen)
 void AWS_S3::put(char* nameFile, char* data, int dataLen)
 {
 	char data_send[1024];
-	sprintf(data_send, "PUT /%s HTTP/1.1\r\nContent-Lenght: %d\r\nHost://imic-backet-s3.s3-ap-southeast-1.amazonaws.com\r\n\r\n%s", nameFile, dataLen, data);
+	sprintf(data_send, "PUT /%s HTTP/1.1\r\nContent-Lenght: %d\r\nHost://imic-backet-s3.s3-ap-southeast-1.amazonaws.com\r\n\r\n", nameFile, dataLen, data);
 	printf("data_send: %s\r\n", data_send);
 	//nhan data ve kiem tra
 	Send(data_send);
