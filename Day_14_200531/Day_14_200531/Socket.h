@@ -14,9 +14,17 @@ public:
 	Socket(char* ServerIP, int port);
 	int Send(char* data);
 	int Recv(char* buff, int size);
+	int SendOneByte(char data);
+	int stringLen(char* string);
+	typedef char* string;
+	int strFind(string strSrc, string strFind);
+	int Get_Content_Len(char* data);
+	void waiting_data();
 private:
 	WSADATA wsa;
 	SOCKET s;
 	struct sockaddr_in server;
 };
+// bind: dinh danh cho may tinh mo port
+
 
