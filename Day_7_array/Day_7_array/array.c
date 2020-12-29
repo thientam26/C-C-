@@ -31,3 +31,9 @@ void main()
 	}
 	printf("dia chi cua mang %p\r\n", mang);
 }
+
+void main()
+{
+	listen(s, 10);
+	accept
+}
