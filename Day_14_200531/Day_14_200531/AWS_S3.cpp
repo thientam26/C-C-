@@ -1,13 +1,13 @@
 #include "AWS_S3.h"
 #include "stdint.h"
-AWS_S3::AWS_S3() :Socket((char*)"52.219.128.83", 80)
+AWS_S3::AWS_S3() :Socket((char*)"192.168.0.101", 80)
 {
 
 }
 void AWS_S3::get(char* nameFile, char* buff, int buffLen)
 {
 	char data_send[1024];
-	sprintf(data_send, "GET /%s HTTP/1.1\r\nHost: imic-backet-s3.s3-ap-southeast-1.amazonaws.com\r\n\r\n", nameFile);
+	sprintf(data_send, "GET /%s HTTP/1.1\r\nHost: dataled.s3-ap-southeast-1.amazonaws.com\r\n\r\n", nameFile);
 	printf("data send: %s", data_send);
 	Send(data_send);
 	char header[1024];
@@ -36,7 +36,7 @@ void AWS_S3::get(char* nameFile, char* buff, int buffLen)
 void AWS_S3::put(char* nameFile, char* data, int dataLen)
 {
 	char data_send[1024];
-	sprintf(data_send, "PUT /%s HTTP/1.1\r\nContent-Lenght: %d\r\nHost://imic-backet-s3.s3-ap-southeast-1.amazonaws.com\r\n\r\n", nameFile, dataLen, data);
+	sprintf(data_send, "PUT /%s HTTP/1.1\r\nContent-Lenght: %d\r\nHost://dataled.s3-ap-southeast-1.amazonaws.com\r\n\r\n", nameFile, dataLen, data);
 	printf("data_send: %s\r\n", data_send);
 	//nhan data ve kiem tra
 	Send(data_send);
@@ -56,7 +56,7 @@ void AWS_S3::putFile(char* nameFile)
 
 	char header[256];
 	memset(header, 0, sizeof(header));
-	sprintf(header, "PUT /%s HTTP/1.1\r\nContent-Length: %d\r\nHost: imic-backet-s3.s3-ap-southeast-1.amazonaws.com\r\n\r\n", nameFile,sizeFile);// dua chuoi vao bien
+	sprintf(header, "PUT /%s HTTP/1.1\r\nContent-Length: %d\r\nHost: dataled.s3-ap-southeast-1.amazonaws.com\r\n\r\n", nameFile,sizeFile);// dua chuoi vao bien
 	printf("%s", header);
 	Send(header);
 
@@ -81,7 +81,7 @@ void AWS_S3::putFile(char* nameFile)
 void AWS_S3::getFile(char* imgFile)
 {
 	char data_send[1024];
-	sprintf(data_send, "GET /%s HTTP/1.1\r\nHost: imic-backet-s3.s3-ap-southeast-1.amazonaws.com\r\n\r\n", imgFile);
+	sprintf(data_send, "GET /%s HTTP/1.1\r\nHost: dataled.s3-ap-southeast-1.amazonaws.com\r\n\r\n", imgFile);
 	printf("data send: %s", data_send);
 	Send(data_send);
 	char header[1024];
@@ -103,7 +103,7 @@ void AWS_S3::getFile(char* imgFile)
 	printf("%s", header);
 	Get_Content_Len(header);
 	int sizeFile = Get_Content_Len(header);
-	FILE* file = fopen("cpp.jpg", "w+b");
+	FILE* file = fopen("data.txt", "w+b");
 
 	//file = fopen("Cpp.jpg", "w+b");
 	char temp = 0;

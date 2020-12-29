@@ -1,34 +1,48 @@
 #include "Socket.h"
 #include "AWS_S3.h"
-//int main()
-//{
-//	socket test((char*)"192.168.1.26", 23);
-//	test.send((char*)"hello sunday\r\n");
-//	char buff[1024];
-//	memset(buff, 0, 1024);
-//	test.recv(buff, sizeof(buff));
-//	printf("gia tri cua buff la: %s", buff);
-//	return 0;
-//}
 
 int main()
 {
 	AWS_S3 imic;
-	//Socket imic2(9);
-	char buffer[1024];
-	memset(buffer, 0, sizeof(buffer));
-	//imic.get((char*)"Cpp.jpg", buffer, sizeof(buffer));
-	//printf("%s\r\n", buffer);
-	//char* data = (char*)"xin_chao";
-	//imic.put((char*)"test.txt", data, strlen(data));
-	//char* data =(char*) "Hello Sunday";
-	//imic.put((char*)"check.txt", data, strlen(data));
-	
+	//char buffer[1024];
+	//memset(buffer, 0, sizeof(buffer));
+	//imic.get((char*)"data.txt", buffer, sizeof(buffer));
+	//printf("%s", buffer);
+	char* data = (char*)"xin chao";
+	imic.put((char*)"data2.txt", data, strlen(data));
 
-	imic.getFile((char*)"Cpp.jpg");
+	return 0;
+}
+//int main()
+//{
+//	Socket test((char*)"192.168.0.102", 23);
+//	test.Send((char*)"hello sunday\r\n");
+//	char buff[1024];
+//	memset(buff, 0, 1024);
+//	test.Recv(buff, sizeof(buff));
+//	printf("gia tri cua buff la: %s", buff);
+//	return 0;
+//}
 
-	//return 0;
-//ocket server(1234);
+//int main()
+//{
+//	AWS_S3 imic;
+//	//socket imic2(9);
+//	char buffer[1024];
+//	memset(buffer, 0, sizeof(buffer));
+//	//imic.get((char*)"cpp.jpg", buffer, sizeof(buffer));
+//	//printf("%s\r\n", buffer);
+//	//char* data = (char*)"xin_chao";
+//	//imic.put((char*)"test.txt", data, strlen(data));
+//	//char* data =(char*) "hello sunday";
+//	//imic.put((char*)"check.txt", data, strlen(data));
+//
+//
+//	imic.getfile((char*)"data.txt");
+//
+//	//return 0;
+////socket server(1234);
+//}
 
 //while (1)
 //{
@@ -51,4 +65,4 @@ int main()
 //	}
 //}
 
-}
+//}

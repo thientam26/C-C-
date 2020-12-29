@@ -1,3 +1,4 @@
 ﻿  main.cpp
 D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_14_200531\Day_14_200531\Socket.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_14_200531\Day_14_200531\main.cpp(12,49): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   Day_14_200531.vcxproj -> D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\Day_14_200531\x64\Debug\Day_14_200531.exe
