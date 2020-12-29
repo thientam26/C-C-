@@ -12,3 +12,11 @@ void free(void *ptr)
 memcpy: copy data truc tiếp vào vùng nhớ
 công
 con trỏ kiểu void chỉ trả về địa chỉ vùng nhớ, không cộng đc địa chỉ
+biến trong void main cũng là biến cục bộ
+4. các loại vùng nhớ
+Text: code segment
+stack: lưu biến cục bộ
+
+heap:
+
+Yocto
