@@ -24,7 +24,7 @@ int main(void){
 	{
 	    // Bat LED do
 	    GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_1 | GPIO_PIN_2 | GPIO_PIN_3, shift); //bat den LED
-	    SysCtlDelay(5000000); // Delay
+	    SysCtlDelay(10000000); // Delay
 	    // Dich bit voi y nghia bat lED xanh
 	    shift <<= 1;
 	    // Kiem tra neu LED xanh la sang thi quay tro lai LED do
