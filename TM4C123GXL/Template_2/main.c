@@ -1,7 +1,7 @@
 /**
  * Chuong tring doc nhiet do ADC
  */
-#include <stdin.h>
+#include <stdint.h>
 #include <stdbool.h>
 #include <inc/hw_memmap.h>
 #include <inc/hw_types.h>
@@ -29,5 +29,12 @@ int main(void)
         ADCIntClear(ADC0_BASE, 1); // Xoa cac gia tri adc co tu truoc
         ADCProcessorTrigger(ADC0_BASE,1);
         while(!ADCIntStatus(ADC0_BASE,1,false)) //Neu trang thai khoi tao cua ADC ok thi thuc hien buoc tiep theo
+        {}
+        ADCSequenceDataGet(ADC0_BASE, 1, ui32ADC0Value); //Thuc hien lay du lieu va luu lai
+        ui32TemAvg = (ui32ADC0Value[0] + ui32ADC0Value[1] + ui32ADC0Value[2] + ui32ADC0Value[3] + 2)/4; //Tinh gia tri trung binh adc
+        ui32TemValueC = (1475 - ((2475*ui32TemAvg))/4096)/10; //Tinh gia tri nhiet do do C, o day adc kit tiva la 12 bit nen do phan giai adc la 4096
+        ui32TemValueF = ((ui32TemValueC*9)+160)/5; //Tinh gia tri nhiet do F dua tren cong thuc do C chuyen sang do F
+
+
     }
 }
