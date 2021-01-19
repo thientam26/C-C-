@@ -8,6 +8,9 @@ SHELL = cmd.exe
 CMD_SRCS += \
 ../tm4c123gh6pm.cmd 
 
+LIB_SRCS += \
+C:/ti/TivaWare_C_Series-2.1.4.178/driverlib/ccs/Debug/driverlib.lib 
+
 C_SRCS += \
 ../main.c \
 ../tm4c123gh6pm_startup_ccs.c 
