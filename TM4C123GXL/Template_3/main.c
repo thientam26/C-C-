@@ -14,7 +14,13 @@
 int main(void)
 {
     uint32_t ui32Period ;
-    SysCtlClockSet(SYSCTL_SYSDIV_5 | SYSCTL_USE_PLL| SYSCTL_XTAL_16MHZ);
+    SysCtlClockSet(SYSCTL_SYSDIV_5 | SYSCTL_USE_PLL| SYSCTL_XTAL_16MHZ | SYSCTL_OSC_MAIN);
+    // Kich hoat port F
+    SysCtlPeripheralEnable(SYSCTL_PERIPH_GPIO);
+    GPIOPinTypeGPIOOutput(GPIO_PORTF_BASE, GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3); // Cau hinh 3 LED la output, o day chi su dung LED 2 thoi
+    SysCtlPeripheralEnable(SYSCTL_PERIPH_TIMER0);
+
+
 
 
 }
