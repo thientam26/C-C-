@@ -1,0 +1,4 @@
+﻿  Day_19_200617.cpp
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100_Days_Coding\Day_19_200617\Day_19_200617\Day_19_200617.cpp(4,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100_Days_Coding\Day_19_200617\Day_19_200617\Day_19_200617.cpp(9,9): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+  Day_19_200617.vcxproj -> D:\AUTOMOTIVE EMBEDDED SYSTEMS\Embedded\100_Days_Coding\Day_19_200617\Debug\Day_19_200617.exe
